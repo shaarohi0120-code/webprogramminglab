@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+      width: 220px;
+    }
+    input[type="number"] {
+      width: 65px;
+    }
+  </style>
+</head>
+<body>
+
+  <form>
+    <input type="text" name="fullname" placeholder="Full name" required>
+    <input type="email" name="email" placeholder="you@college.edu" required>
+    <input type="tel" name="mobile" placeholder="10-digit mobile" pattern="[0-9]{10}" required>
+    <input type="password" name="password" placeholder="Min 6 characters" minlength="6" required>
+    <input type="number" name="age" placeholder="Age (17+)" min="17" required>
+    
+    <button type="submit">Register</button>
+  </form>
+
+</body>
+</html>
