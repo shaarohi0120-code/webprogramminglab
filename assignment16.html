@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Feedback Form</title>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <!-- Course Dropdown -->
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option value="ECE" selected>ECE</option>
+            <option value="CSE">CSE</option>
+            <option value="EEE">EEE</option>
+            <option value="MECH">MECH</option>
+        </select>
+
+        <br><br>
+
+        <!-- Feedback Textarea -->
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="6" cols="50" placeholder="Write here..."></textarea>
+
+        <br><br>
+
+        <!-- Form Buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <button type="button" onclick="alert('Button clicked!')">Click Me</button>
+    </form>
+
+</body>
+</html>
