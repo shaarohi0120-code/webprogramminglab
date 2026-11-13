@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab Schedule</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      font-family: Georgia, serif;
+      text-align: center;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px 14px;
+    }
+    /* Padding around the inner nested table */
+    .nested-container {
+      padding: 10px;
+    }
+    .nested-table {
+      width: 100%;
+    }
+    .nested-table td, .nested-table th {
+      text-align: left;
+      padding: 6px 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Lab Batches</th>
+        <th>Faculty</th>
+        <th>Room</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Friday</td>
+        <td class="nested-container">
+          <table class="nested-table">
+            <thead>
+              <tr>
+                <th>Batch</th>
+                <th>System</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>A1</td>
+                <td>PC 1-20</td>
+              </tr>
+              <tr>
+                <td>A2</td>
+                <td>PC 21-40</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td>Dr. Sharma</td>
+        <td>Lab 2</td>
+        <td>2-4 PM</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
+
